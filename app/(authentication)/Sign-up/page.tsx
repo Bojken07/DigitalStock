@@ -15,7 +15,7 @@ export default function SignUp() {
 
     // Signup Logic
     // POST => Fetch()
-    // TODO - FIx the status code throw
+    // TODO - FIx the status code throww
     fetch("http://localhost:8080/api/v1/register", {
       method: "POST",
       headers: { "content-type": "application/json;charset=UTF-8" },
